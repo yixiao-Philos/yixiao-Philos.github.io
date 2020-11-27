@@ -8,12 +8,14 @@
   <link rel="dns-prefetch" href="http://example.com">
   <title>Archives | SoulHome</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+  <meta name="description" content="Hello, this is my world, here is my dream, love and life！">
+<meta property="og:type" content="website">
 <meta property="og:title" content="SoulHome">
 <meta property="og:url" content="http://example.com/archives/index.html">
 <meta property="og:site_name" content="SoulHome">
+<meta property="og:description" content="Hello, this is my world, here is my dream, love and life！">
 <meta property="og:locale" content="en_US">
-<meta property="article:author" content="John Doe">
+<meta property="article:author" content="Philos Zhang">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="SoulHome" type="application/atom+xml">
@@ -63,10 +65,6 @@
     		
     			
     			<a q-on="click: openSlider(e, 'innerArchive')" href="javascript:void(0)">所有文章</a>
-    			
-            
-    			
-    			<a q-on="click: openSlider(e, 'friends')" href="javascript:void(0)">友链</a>
     			
             
     			
@@ -175,19 +173,30 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
       	<div class="article-meta">
-	      	<a href="/2020/11/26/hello-world/" class="archive-article-date">
-  	<time datetime="2020-11-26T14:58:02.634Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-11-26</time>
+	      	<a href="/2020/11/27/%E5%86%99%E5%9C%A8%E5%8D%9A%E5%AE%A2%E5%88%9B%E7%AB%8B%E4%B9%8B%E5%88%9D%E7%9A%84%E8%AF%9D/" class="archive-article-date">
+  	<time datetime="2020-11-27T05:17:34.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-11-27</time>
 </a>
         </div>
     	 
   
     <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/11/26/hello-world/">Hello World</a>
+      <a class="archive-article-title" href="/2020/11/27/%E5%86%99%E5%9C%A8%E5%8D%9A%E5%AE%A2%E5%88%9B%E7%AB%8B%E4%B9%8B%E5%88%9D%E7%9A%84%E8%AF%9D/">写在博客创立之初的话</a>
     </h1>
   
 
         <div class="article-info info-on-right">
           
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">日志</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
           
 
         </div>
@@ -210,7 +219,7 @@
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-    		&copy; 2020 John Doe
+    		&copy; 2020 Philos Zhang
     	</div>
       	<div class="footer-right">
       		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
@@ -254,25 +263,17 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
       
       
     
-      
-      
-      
-    
     
 
     <ul style="width: 70%">
     
     
       
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
+      <li style="width: 50%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
       
         
       
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'friends')"><a href="javascript:void(0)" q-class="active:friends">友链</a></li>
-      
-        
-      
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
+      <li style="width: 50%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
       
         
     </ul>
@@ -291,6 +292,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">日志</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
@@ -335,10 +340,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     	</section>
     
 
-    
-    	<section class="tools-section tools-section-friends" q-show="friends">
-  		
-    	</section>
     
 
     
